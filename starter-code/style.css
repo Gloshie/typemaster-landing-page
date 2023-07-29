@@ -1,0 +1,83 @@
+.svg-box{
+    background-color: #F16718;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+#pre-order-button{
+    height: 58px;
+    width: 175px;
+    background-color: #E8EFF2;
+    color: #162542;
+    border-radius: 5%;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-size: 16;
+    font-weight: bold;
+}
+    #pre-order-button:hover{
+        background-color: #162542;
+        color:#E8EFF2;
+    }
+
+#b{
+    font-family: Barlow, sans-sherif;
+    margin-top: 58px; 
+}
+
+header{
+    width: 1440px;
+    margin: auto;
+}
+
+#header-box-container{
+    height: 58px;
+    width: 1110px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width: 768px){
+    #b{
+        margin-top: 40px;
+        width: 768px;
+    }
+    header{
+        width: 768px;
+        margin: auto;
+        
+    }
+
+    #header-box-container{
+        width: 689px;
+        height: 58px;
+        margin-left: 39px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 376px){
+    #b{
+        margin-top: 23px;
+        width: 375px;
+    }
+    header{
+        width: 375px;
+        margin: auto;     
+    }
+
+    #header-box-container{
+        width: 327px;
+        margin-left: 24px;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
