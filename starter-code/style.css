@@ -24,6 +24,22 @@
         color:#E8EFF2;
     }
 
+    #pre-order-button-2{
+        height: 58px;
+        width: 175px;
+        background-color: #F16718;
+        color: #ffffff;
+        border-radius: 5%;
+        text-transform: uppercase;
+        line-height: 26px;
+        font-size: 16;
+        font-weight: bold;
+    }
+        #pre-order-button-2:hover{
+            background-color: #ff9b62;
+            color:#ffffff;
+        }
+
 #b{
     font-family: Barlow, sans-sherif;
     margin-top: 58px; 
@@ -81,3 +97,233 @@ header{
         justify-content: space-between;
     }
 }
+
+#main-container{
+    width: 1440px;
+    margin: auto;  
+}
+
+#div-main-container-1{
+    width: 1440px;
+    position: relative;
+    overflow: hidden;
+}
+
+#div-container-1{
+    width: 1110px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;   
+}
+
+#type-master-keyboard-div{
+    height: 312px;
+    width: 445px;
+}
+
+.typemaster-title{
+    width: 1110px;
+    color: #162542;
+    display: block;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.typemaster-p{
+   width: 445px;
+   height: 78px;
+   text-align: left;
+   line-height: 26px;
+   font-size: 18px;
+   color: #7b8bad; 
+}
+
+#typemaster-button{
+    display: flex;
+}
+
+#pre-order-button-2{
+    width: 175px;
+    height: 58px;
+}
+
+#pre-order-button-p{
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 127px;
+    height: 26px;
+    text-align: left;
+    color: #7b8bad;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+
+.keyboard-image-resize{
+    height: 480px;
+    width: 540px;
+    background-image: url('assets/desktop/image-keyboard.jpg');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.right-side-box{
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 1305px;
+    width: 255px;
+    height: 240px;
+    background-color: #E8EFF2;
+    border-radius: 5%;
+    
+}
+
+@media (max-width: 768px){
+    #main-container{
+        width: 768px;
+         
+    }
+
+    #div-main-container-1{
+        width: 768px; 
+        overflow: hidden;
+        margin: auto;
+    }
+
+    #div-container-1{
+        width: 768px;
+        display: flex;
+        justify-content: space-between;    
+    }
+
+    #type-master-keyboard-div{
+        margin: auto 0px auto 39px;
+    }
+
+    .typemaster-title{
+        width: 339px;
+        height: 96px;
+        color: #162542;
+        text-align: left;
+        line-height: 48px;
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .typemaster-p{
+        width: 339px;
+        height: 78px;
+        color: #7b8bad;
+        text-align: left;
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    #typemaster-button{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #pre-order-button-2{
+        width: 175px;
+        height: 58px;
+        font-size: 16px;
+    }
+
+    #pre-order-button-p{
+        width: 127px;
+        height: 26px;
+        font-size: 16px;
+        color: #7b8bad;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .keyboard-image-resize{
+        width: 478px;
+        height: 425px;
+        background-image: url("assets/tablet/image-keyboard.jpg");
+        overflow: hidden;
+        margin-left: 5%;
+        border-radius: 5% 0 0 5%;
+    }
+}
+
+
+@media(max-width: 376px){
+    #main-container{
+        width: 375px;
+    }
+
+    #div-main-container-1{
+        width: 375px;
+    }
+
+    #div-container-1{
+        display: flex;
+        flex-direction: column;
+    }
+   
+
+    #type-master-keyboard-div{
+        width: 327px;
+        height: 350px;
+        margin-left: 24px;      
+    }
+
+    .typemaster-title{
+        width: 327px;
+        height: 96px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: left;
+        color: #162542;
+        text-transform: uppercase;
+        text-decoration: bold;
+        font-weight: 800;
+        
+    }
+
+    .typemaster-p{
+        width: 327px;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #7b8bad;
+        text-align: left;
+    }
+
+    #typemaster-button{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    #pre-order-button-2{
+        width: 150px;
+        height: 48px;
+        font-size: 16;
+        font-weight: bold;
+        
+    }
+
+    #pre-order-button-p{
+        font-size: 16;
+        font-weight: bold;
+        color: #7b8bad;
+        text-transform: uppercase;
+    }
+
+    .keyboard-image-resize{ 
+        width: 372px;
+        height: 331px;
+        background-image: url("assets/mobile/image-keyboard.jpg");
+        margin-left: 24px;     
+    }
+}
+
