@@ -327,3 +327,235 @@ header{
     }
 }
 
+#div-main-container-2{
+    width: 1440px;
+    margin: auto;
+}
+
+#main-container-2{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.keyboard-phone-image-resize{
+    background-image: url("assets/desktop/image-phone-and-keyboard.jpg");
+    background-size: cover;
+    width: 255px;
+    height: 480px;
+    margin-left: 165px;
+    border-radius: 5%;    
+}
+
+.keyboard-phone-image-resize::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 165px;
+    width: 255px;
+    height: 480px;
+    background-color:#F16718; 
+    z-index: 1; 
+    pointer-events: none; 
+    opacity: 0.7;
+    border-radius: 5%;
+}
+
+
+.keyboard-glass-image-resize{
+    background-image: url("assets/desktop/image-glass-and-keyboard.jpg");
+    background-size: cover;
+    height: 480px;
+    width: 445px;
+    margin-left: 2%;
+    border-radius: 5%;
+}
+
+    #container-2-text{
+        margin: auto auto auto 7%;
+        width: 225px;
+        height: 265px;
+        
+    }
+
+    #container-2-title{
+        width: 255px;
+        height: 108px;
+        font-size: 32px;
+        color: #162542;
+        text-align: left;
+        line-height: 36px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    #container-2-p-div{
+        width: 255px;
+        height: 130px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #7b8bad;
+        text-align: left;
+        line-height: 26px;
+    }
+
+    .left-side-box{
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        right: 1305px;
+        width: 255px;
+        height: 240px;
+        background-color: #E8EFF2;
+        border-radius: 5%;
+        
+    }
+
+
+
+@media (max-width: 768px){
+    #div-main-container-2{
+        width: 768px;
+    }
+
+    #main-container-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .keyboard-phone-image-resize{
+        background-image: url("assets/tablet/image-phone-and-keyboard.jpg"); 
+        background-size: cover;
+        width: 214px;
+        height: 320px;
+        margin-left: 39px;
+        
+    }
+    
+    .keyboard-phone-image-resize::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 39px;
+        width: 214px;
+        height: 320px;
+        background-color:#F16718; 
+        z-index: 1;
+        pointer-events: none;
+        opacity: 0.7;
+        border-radius: 5%;
+    }
+
+    .keyboard-glass-image-resize{
+        background-image: url("assets/tablet/image-glass-and-keyboard.jpg");
+        background-size: cover;
+        margin-left: 3%;
+        width: 445px;
+        height: 320px;
+        
+    }
+
+    #container-2-text{
+        margin-top: 10%;
+        margin-left: 39px;
+        width: 689px;
+        height: 108px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    #container-2-title{
+        margin-top: 0%;
+        width: 255px;
+        height: 108px;
+        font-size: 32px;
+        text-align: left;
+        color: #162542;
+        line-height: 36px;
+    }
+
+    #container-2-p-div{
+        width: 398px;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+        color: #7b8bad;
+    }
+}
+
+@media (max-width: 376px){
+   #div-main-container-2{
+    width: 375px;
+   }
+
+    #main-container-2{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .keyboard-phone-image-resize{
+        background-image: url("assets/mobile/image-phone-and-keyboard.jpg");
+        background-size: cover;
+        margin-left: -22px;
+        width: 129px;
+        height: 193px;
+          
+    }
+    
+    .keyboard-phone-image-resize::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -22px;
+        width: 129px;
+        height: 193px;
+        background-color:#F16718; /* Example transparent blue overlay */
+        z-index: 1; /* Set a higher z-index to position the overlay above the image */
+        pointer-events: none; /* Allow clicks to pass through the overlay to the image */
+        opacity: 0.7;
+        border-radius: 0% 5% 5% 0%;
+        
+    }
+
+    .keyboard-glass-image-resize{
+        background-image: url("assets/mobile/image-glass-and-keyboard.jpg");
+        background-size: cover;
+        width: 220px;
+        height: 193px;
+        margin-left: 4%;       
+    }
+
+    #container-2-text{
+        width: 375px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #container-2-title{
+        width: 255px;
+        height: 108px;
+        margin-left: 60px;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 800;
+        line-height: 36px;
+        text-align: center;
+        color: #162542;
+    }
+
+    #container-2-p-div{
+        margin-left: 24px;
+        width: 327px;
+        height: 104px;
+        text-align: center;
+        font-size: 16px;
+        color: #7b8bad;
+        line-height: 26px;   
+    }
+ 
+}
