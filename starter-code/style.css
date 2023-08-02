@@ -23,7 +23,7 @@ header{
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 850px){
     #b{
         margin-top: 40px;
         width: 768px;
@@ -43,7 +43,7 @@ header{
     }
 }
 
-@media(max-width: 376px){
+@media(max-width: 500px){
     #b{
         margin-top: 23px;
         width: 375px;
@@ -112,6 +112,7 @@ header{
 #pre-order-button-2{
     width: 175px;
     height: 58px;
+    border: 0px;
 }
 
 #pre-order-button-p{
@@ -149,7 +150,7 @@ header{
 
 
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     #main-container{
         width: 768px;
          
@@ -221,7 +222,7 @@ header{
 }
 
 
-@media(max-width: 376px){
+@media(max-width: 500px){
     #main-container{
         width: 375px;
     }
@@ -311,21 +312,9 @@ header{
     width: 255px;
     height: 480px;
     margin-left: 165px;
-    border-radius: 5%;    
-}
-
-.keyboard-phone-image-resize::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 165px;
-    width: 255px;
-    height: 480px;
-    background-color:#F16718; 
-    z-index: 1; 
-    pointer-events: none; 
-    opacity: 0.7;
-    border-radius: 5%;
+    border-radius: 5%;   
+    background-color: #F16718; 
+    background-blend-mode: multiply;
 }
 
 
@@ -380,7 +369,7 @@ header{
 
 
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     #div-main-container-2{
         width: 768px;
     }
@@ -399,20 +388,6 @@ header{
         
     }
     
-    .keyboard-phone-image-resize::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 39px;
-        width: 214px;
-        height: 320px;
-        background-color:#F16718; 
-        z-index: 1;
-        pointer-events: none;
-        opacity: 0.7;
-        border-radius: 5%;
-    }
-
     .keyboard-glass-image-resize{
         background-image: url("assets/tablet/image-glass-and-keyboard.jpg");
         background-size: cover;
@@ -452,7 +427,7 @@ header{
     }
 }
 
-@media (max-width: 376px){
+@media (max-width: 500px){
    #div-main-container-2{
     width: 375px;
    }
@@ -469,21 +444,6 @@ header{
         width: 129px;
         height: 193px;
           
-    }
-    
-    .keyboard-phone-image-resize::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -22px;
-        width: 129px;
-        height: 193px;
-        background-color:#F16718; /* Example transparent blue overlay */
-        z-index: 1; /* Set a higher z-index to position the overlay above the image */
-        pointer-events: none; /* Allow clicks to pass through the overlay to the image */
-        opacity: 0.7;
-        border-radius: 0% 5% 5% 0%;
-        
     }
 
     .keyboard-glass-image-resize{
@@ -571,7 +531,7 @@ header{
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 850px){
     #main-div-container-3{
         width: 768px;
         margin-top: 15%;
@@ -616,7 +576,7 @@ header{
 
 }
 
-@media(max-width: 376px){
+@media(max-width: 500px){
     #main-div-container-3{
         width: 375px;
         margin-top: 20%;
@@ -682,7 +642,7 @@ footer{
     color: #7b8bad;
 }
 
-@media(max-width: 768px){
+@media(max-width: 850px){
     footer{
         width: 272px;
         height: 26px;
@@ -696,7 +656,7 @@ footer{
 }
 }
 
-@media(max-width: 376px){
+@media(max-width: 500px){
     footer{
         width: 272px;
         height: 26px;
@@ -738,6 +698,7 @@ h3{
     line-height: 26px;
     font-size: 16;
     font-weight: bold;
+    border: 0px;
 }
     #pre-order-button:hover{
         background-color: #162542;
