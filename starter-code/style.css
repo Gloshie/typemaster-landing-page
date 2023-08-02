@@ -1,4 +1,9 @@
-
+*{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 #b{
     font-family: Barlow, sans-sherif;
     margin-top: 58px; 
@@ -63,12 +68,12 @@ header{
 }
 
 #main-container{
-    width: 1440px;
+    width: 100%;
     margin: auto;  
 }
 
 #div-main-container-1{
-    width: 1440px;
+    width: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -140,11 +145,11 @@ header{
     content: "";
     position: absolute;
     top: 5%;
-    left: 1305px;
-    width: 255px;
+    right: 0;
+    width: 127.5px;
     height: 240px;
     background-color: #E8EFF2;
-    border-radius: 5%;
+    border-radius: 5% 0 0 5%;
     
 }
 
@@ -219,6 +224,10 @@ header{
         margin-left: 5%;
         border-radius: 5% 0 0 5%;
     }
+
+    .right-side-box{
+        display: none;
+    }
 }
 
 
@@ -292,10 +301,14 @@ header{
         background-image: url("assets/mobile/image-keyboard.jpg");
         margin-left: 24px;     
     }
+
+    .right-side-box{
+        display: none;
+    }
 }
 
 #div-main-container-2{
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -359,11 +372,11 @@ header{
         content: "";
         position: absolute;
         bottom: 0%;
-        right: 1305px;
-        width: 255px;
+        left: 0;
+        width: 127.5px;
         height: 240px;
         background-color: #E8EFF2;
-        border-radius: 5%;
+        border-radius: 0 5% 5% 0;
         
     }
 
@@ -425,6 +438,10 @@ header{
         text-align: left;
         color: #7b8bad;
     }
+
+    .left-side-box{
+        display: none;
+    }
 }
 
 @media (max-width: 500px){
@@ -484,6 +501,10 @@ header{
         line-height: 26px;
 
         
+    }
+
+    .left-side-box{
+        display: none;
     }
  
 }
